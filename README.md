@@ -45,7 +45,7 @@ The shell will also allow the user to launch parallel commands. This is accompli
 ```
 dash> cmd1 & cmd2 args1 args2 & cmd3 args1
 ```
-In this case, instead of running cmd1 and then waiting for it to finish, your shell runs `cmd1`, `cmd2`, and `cmd`3 (each with whatever arguments the user has passed to it) in parallel, before waiting for any of them to complete.
+In this case, instead of running `cmd1` and then waiting for it to finish, your shell runs `cmd1`, `cmd2`, and `cmd3` (each with whatever arguments the user has passed to it) in parallel, before waiting for any of them to complete.
 
 ## Program Errors
 Shell prints this one and only error message whenever it encounters an error of any type:
